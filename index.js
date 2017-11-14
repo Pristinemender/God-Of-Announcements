@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member => {
 
   // Sending a message to a channel when a user joins discord.
   if (member.guild.channels.get('378783095651958785')) {
-   bot.channels.get('379800669349216267').send('@' + member.user.username + '**, has joined the server!');
+   bot.channels.get('379800669349216267').send('@' + member.user.username + '**, welcome to the Gamer Lounge!');
   }
 });
 
